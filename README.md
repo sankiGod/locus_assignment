@@ -8,7 +8,7 @@ This project is used to output the atmospheric pressure at 4am for the past thre
 ## Getting Started
 To run this project you just need to have a version of Python (version 3 or greater) installed in your system.
 ### Prerequisites
-Things you need to use the project and how to install/get them.
+Things you need to run the project and how to install/get them.
 * requests
   ```sh
   pip install requests
