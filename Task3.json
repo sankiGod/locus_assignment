@@ -7,15 +7,11 @@
 			"taskPriority": 2,
 			"sourceOrderId": "sourceOrderId",
 			"teamId": "teamId",
-			"userId": "userId"
-		},
-		{
+			"userId": "userId",
 			"lineItems": [{
 					"id": "id",
 					"name": "name",
-					"quantity": 5
-				},
-				{
+					"quantity": 5,
 					"price": {
 						"amount": 250,
 						"currency": "USD",
