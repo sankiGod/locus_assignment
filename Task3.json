@@ -1,0 +1,83 @@
+{
+	"homebaseId": "homebaseId",
+	"teamId": "teamId",
+	"tasksDate": "2017-09-14",
+	"inputTasks": [{
+			"taskId": "taskId",
+			"taskPriority": 2,
+			"sourceOrderId": "sourceOrderId",
+			"teamId": "teamId",
+			"userId": "userId"
+		},
+		{
+			"lineItems": [{
+					"id": "id",
+					"name": "name",
+					"quantity": 5
+				},
+				{
+					"price": {
+						"amount": 250,
+						"currency": "USD",
+						"symbol": "$"
+					}
+				}
+			],
+			"skills": [
+				"skill_1",
+				"skill_2",
+				"skill_3"
+			],
+			"resources": [{
+				"name": "CASH",
+				"value": 250
+			}],
+			"customFields": {
+				"key1": "value1",
+				"key2": "value2"
+			},
+			"taskType": "PICKUP",
+			"visitName": "visitName",
+			"homebaseId": "homebaseId",
+			"locationId": "locationId",
+			"contactPoint": {
+				"name": "name",
+				"number": "number"
+			},
+			"locationAddress": {
+				"id": "id",
+				"placeName": "placeName",
+				"localityName": "localityName",
+				"formattedAddress": "formattedAddress",
+				"subLocalityName": "subLocalityName",
+				"pincode": "pincode",
+				"city": "city",
+				"state": "state",
+				"countryCode": "countryCode",
+				"locationType": "STANDALONE_APARTMENT"
+			},
+			"latLng": {
+				"lat": 13.75,
+				"lng": 77.35
+			},
+			"slot": {
+				"start": "2020-07-10 15:00:00.000",
+				"end": "2020-08-10 15:00:00.000"
+			},
+			"transactionDuration": 250,
+			"volume": {
+				"value": "25",
+				"unit": "METERS_CUBIC"
+			},
+			"amountTransaction": {
+				"amount": {
+					"amount": 250.00,
+					"currency": "USD",
+					"symbol": "$"
+				},
+				"exchangeType": "COLLECT"
+			}
+
+		}
+	]
+}

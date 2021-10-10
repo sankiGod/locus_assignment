@@ -1,0 +1,14 @@
+Task 2 : Using the same API, propose a way to automatically check the predicted barometric
+pressure everyday and send an email if the pressure is predicted to fall below 995
+Millibar during 6am to 6pm. You can suggest any services and APIs that would be
+required to accomplish this in the shortest time span. Explain in less than 300 words.
+You can submit a supporting sketch.
+
+Proposed Solution:  
+
+We can create a python script making the 'Call hourly forecast data' API call (https://pro.openweathermap.org/data/2.5/forecast/hourly?lat={lat}&lon={lon}&appid={API key}) which
+takes the geographical coordinates (latitude, longitude) and optional parameter count of timestamp as input and returns the forcasted hourly weather data for that day if we give count as 24. 
+We can create a cron job in Linux or Task Scheduler in Windows OS and run the above mentioned Api Call at 6 am everyday with count as 12. In that case it will return the
+forcasted hourly data from 6 am to 6 pm everyday.
+After getting the response, we can loop through the hourly json array and compare the forcasted pressure with 995 millibar( which is same as hPa unit returned by the api).
+If any of the pressure falls below the given pressure, then we can use Python’s built-in smtplib library to send email to the required user.
