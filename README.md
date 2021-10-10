@@ -1,6 +1,6 @@
 ## About The Project
 
-This project is used to output the atmospheric pressure at 4am for the past three days for a georaphical location whose latitude and longitude is given as the input by the user. It uses https://openweathermap.org/api to get the required data from the API of OpenWeathermap.org. 
+This project is used to output the atmospheric pressure at 4am for the past three days for a geographical location whose latitude and longitude is given as the input by the user. It uses https://openweathermap.org/api to get the required data from the API of OpenWeathermap.org. 
 
 ### Built With
 * [Python 3.10](https://www.python.org/)
